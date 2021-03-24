@@ -10,6 +10,9 @@ from lib.controller import Controller
 from lib.output import CLIOutput, PrintOutput
 
 
+"""
+class
+"""
 class Program(object):
     def __init__(self):
         self.script_path = os.path.dirname(os.path.realpath(__file__))
@@ -23,6 +26,8 @@ class Program(object):
 
         self.controller = Controller(self.script_path, self.arguments, self.output)
 
-
+"""
+main
+"""
 if __name__ == "__main__":
     main = Program()
